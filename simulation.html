@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chaining Simulation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">AI Fault Diagnosis</div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="forward.html">Forward</a></li>
+
+            <li><a href="backward.html">Backward</a></li>
+
+            <li>
+                <a href="simulation.html" class="active">
+                    Simulation
+                </a>
+            </li>
+
+            <li><a href="diagnosis.html">Diagnosis</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="page-header">
+
+    <h1>Forward Chaining Simulation</h1>
+
+    <p>Watch the inference process step by step.</p>
+
+</section>
+
+<section class="diagnosis-container">
+
+    <div class="diagnosis-card">
+
+        <h2>Start Simulation</h2>
+
+        <p>
+            The system starts with the fact:
+        </p>
+
+        <div class="definition-box">
+            Temperature is High
+        </div>
+
+        <button onclick="startSimulation()">
+            Start Forward Chaining
+        </button>
+
+        <div id="simulationResult" class="result"></div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AI Fault Diagnosis Project</p>
+</footer>
+
+<script src="js/simulation.js"></script>
+
+</body>
+</html>

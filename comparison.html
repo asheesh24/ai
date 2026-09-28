@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison - AI Fault Diagnosis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">AI Fault Diagnosis</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="ai.html">AI</a></li>
+            <li><a href="fault-diagnosis.html">Fault Diagnosis</a></li>
+            <li><a href="forward.html">Forward</a></li>
+            <li><a href="backward.html">Backward</a></li>
+            <li><a href="diagnosis.html">Diagnosis</a></li>
+            <li><a href="comparison.html" class="active">Comparison</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-header">
+    <h1>Forward vs Backward Chaining</h1>
+    <p>Comparison of two AI reasoning techniques</p>
+</section>
+
+<section class="section">
+
+    <h2>Comparison Table</h2>
+
+    <table class="comparison-table">
+
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Forward Chaining</th>
+                <th>Backward Chaining</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Approach</td>
+                <td>Data-driven</td>
+                <td>Goal-driven</td>
+            </tr>
+
+            <tr>
+                <td>Starting Point</td>
+                <td>Known facts</td>
+                <td>Known goal</td>
+            </tr>
+
+            <tr>
+                <td>Direction</td>
+                <td>Facts → Conclusion</td>
+                <td>Goal → Facts</td>
+            </tr>
+
+            <tr>
+                <td>Search</td>
+                <td>Forward search</td>
+                <td>Backward search</td>
+            </tr>
+
+            <tr>
+                <td>Best suited for</td>
+                <td>Finding possible conclusions</td>
+                <td>Testing a specific hypothesis</td>
+            </tr>
+
+            <tr>
+                <td>Example</td>
+                <td>Symptoms → Fault</td>
+                <td>Fault → Required symptoms</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+<section class="section light">
+
+    <h2>Visual Comparison</h2>
+
+    <div class="comparison-cards">
+
+        <div class="compare-card">
+
+            <h3>Forward Chaining</h3>
+
+            <p>Known Symptoms</p>
+
+            <span>↓</span>
+
+            <p>Apply Rules</p>
+
+            <span>↓</span>
+
+            <p>New Facts</p>
+
+            <span>↓</span>
+
+            <p>Fault</p>
+
+        </div>
+
+        <div class="compare-card">
+
+            <h3>Backward Chaining</h3>
+
+            <p>Possible Fault</p>
+
+            <span>↓</span>
+
+            <p>Find Rules</p>
+
+            <span>↓</span>
+
+            <p>Check Conditions</p>
+
+            <span>↓</span>
+
+            <p>Symptoms</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 AI Fault Diagnosis Project</p>
+</footer>
+
+</body>
+</html>

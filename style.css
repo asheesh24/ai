@@ -1,0 +1,58 @@
+/* =========================
+   EXTRA FORM STYLING
+========================= */
+
+input,
+textarea {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccd5df;
+    border-radius: 7px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #149dcc;
+    box-shadow: 0 0 0 3px rgba(20, 157, 204, 0.1);
+}
+
+/* =========================
+   PAGE ANIMATION
+========================= */
+
+.card,
+.application-card,
+.step,
+.compare-card {
+    animation: fadeUp 0.7s ease;
+}
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/* =========================
+   EXTRA MOBILE NAVIGATION
+========================= */
+
+@media (max-width: 1100px) {
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+}
